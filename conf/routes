@@ -1,0 +1,13 @@
+
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /                           controllers.XxeController.ok
+
+# An example controller showing how to write asynchronous code
++nocsrf
+POST     /:id                        controllers.XxeController.post(id)
++nocsrf
+PUT     /:id                        controllers.XxeController.put(id)
