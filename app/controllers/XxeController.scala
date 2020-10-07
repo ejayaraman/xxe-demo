@@ -33,7 +33,6 @@ class XxeController @Inject()(cc: ControllerComponents)(implicit exec: Execution
     val saxParser = factory.newSAXParser()
 
     val xml = scala.xml.XML.withSAXParser(saxParser).loadString(request.body)
-    Future(Created(xml))
+    Future(BadRequest(xml))
   }
-
 }
