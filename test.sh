@@ -10,9 +10,9 @@ curl -H "Content-Type: application/xml" -X PUT http://localhost:12345/$i -d $'<?
 done
 
 echo "Importing XXE Scan Policy"
-#curl -G --data-urlencode path="${PWD}/xml_external_entity_attack.policy" "http://${ZAP_HOST}/JSON/ascan/action/importScanPolicy"
+curl -G --data-urlencode path="${PWD}/xml_external_entity_attack.policy" "http://${ZAP_HOST}/JSON/ascan/action/importScanPolicy"
 
 echo "Triggering active scan with XXE scan policy"
-#curl "http://${ZAP_HOST}/JSON/ascan/action/scan/?url=http%3A%2F%2Flocalhost%3A12345&scanPolicyName=xml_external_entity_attack"
+curl "http://${ZAP_HOST}/JSON/ascan/action/scan/?url=http%3A%2F%2Flocalhost%3A12345&scanPolicyName=xml_external_entity_attack"
 
 
