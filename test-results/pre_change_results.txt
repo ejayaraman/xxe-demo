@@ -1,4 +1,4 @@
-Pre Change Locally Built version:
+Pre Change Locally Built version for Default Strength:
 1 POST request and 
 1 PUT request:
 

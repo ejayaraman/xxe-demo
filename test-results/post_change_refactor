@@ -1,0 +1,38 @@
+Post Change Locally Built version with Strength Insane:
+1 POST request and
+1 PUT request:
+
+2020-10-15 19:21:08,820 [Thread-23] INFO  HostProcess - Scanning 3 node(s) from http://localhost:12345
+2020-10-15 19:21:08,820 [Thread-23] INFO  HostProcess - start host http://localhost:12345 | XxeScanRule strength INSANE threshold MEDIUM
+2020-10-15 19:21:11,687 [Thread-23] INFO  HostProcess - completed host/plugin http://localhost:12345 | XxeScanRule in 2.867s with 14 message(s) sent and 6 alert(s) raised.
+2020-10-15 19:21:11,687 [Thread-23] INFO  HostProcess - completed host http://localhost:12345 in 2.879s with 6 alert(s) raised.
+2020-10-15 19:21:11,688 [Thread-22] INFO  Scanner - scanner completed in 2.883s
+
+5 POST request and
+5 PUT request:
+
+2020-10-15 19:25:46,635 [Thread-40] INFO  HostProcess - Scanning 11 node(s) from http://localhost:12345
+2020-10-15 19:25:46,635 [Thread-40] INFO  HostProcess - start host http://localhost:12345 | XxeScanRule strength INSANE threshold MEDIUM
+2020-10-15 19:26:00,159 [Thread-40] INFO  HostProcess - completed host/plugin http://localhost:12345 | XxeScanRule in 13.523s with 68 message(s) sent and 30 alert(s) raised.
+2020-10-15 19:26:00,159 [Thread-40] INFO  HostProcess - completed host http://localhost:12345 in 13.533s with 30 alert(s) raised.
+2020-10-15 19:26:00,159 [Thread-39] INFO  Scanner - scanner completed in 13.536s
+
+
+10 POST request and
+10 PUT request:
+
+2020-10-15 19:27:40,727 [Thread-75] INFO  HostProcess - Scanning 21 node(s) from http://localhost:12345
+2020-10-15 19:27:40,728 [Thread-75] INFO  HostProcess - start host http://localhost:12345 | XxeScanRule strength INSANE threshold MEDIUM
+2020-10-15 19:28:07,299 [Thread-75] INFO  HostProcess - completed host/plugin http://localhost:12345 | XxeScanRule in 26.571s with 132 message(s) sent and 60 alert(s) raised.
+2020-10-15 19:28:07,299 [Thread-75] INFO  HostProcess - completed host http://localhost:12345 in 26.58s with 60 alert(s) raised.
+2020-10-15 19:28:07,302 [Thread-74] INFO  Scanner - scanner completed in 26.582s
+
+
+20 POST request and
+20 PUT request:
+
+2020-10-15 19:31:01,467 [Thread-140] INFO  HostProcess - Scanning 41 node(s) from http://localhost:12345
+2020-10-15 19:31:01,467 [Thread-140] INFO  HostProcess - start host http://localhost:12345 | XxeScanRule strength INSANE threshold MEDIUM
+2020-10-15 19:31:54,599 [Thread-140] INFO  HostProcess - completed host/plugin http://localhost:12345 | XxeScanRule in 53.132s with 276 message(s) sent and 120 alert(s) raised.
+2020-10-15 19:31:54,599 [Thread-140] INFO  HostProcess - completed host http://localhost:12345 in 53.139s with 120 alert(s) raised.
+2020-10-15 19:31:54,599 [Thread-139] INFO  Scanner - scanner completed in 53.142s
