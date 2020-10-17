@@ -1,0 +1,40 @@
+Pre Change Locally Built version for Default Strength:
+1 POST request and 
+1 PUT request:
+
+2020-10-07 21:09:25,087 [ZAP-ProxyThread-3] INFO  Scanner - scanner started
+2020-10-07 21:09:25,111 [Thread-13] INFO  HostProcess - Scanning 3 node(s) from http://localhost:12345
+2020-10-07 21:09:25,112 [Thread-13] INFO  HostProcess - start host http://localhost:12345 | XxeScanRule strength MEDIUM threshold MEDIUM
+2020-10-07 21:09:28,046 [Thread-13] INFO  HostProcess - completed host/plugin http://localhost:12345 | XxeScanRule in 2.934s with 8 message(s) sent and 3 alert(s) raised.
+2020-10-07 21:09:28,046 [Thread-13] INFO  HostProcess - completed host http://localhost:12345 in 2.953s with 3 alert(s) raised.
+2020-10-07 21:09:28,047 [Thread-12] INFO  Scanner - scanner completed in 2.96s
+
+5 POST request and
+5 PUT request:
+
+2020-10-07 21:14:20,432 [ZAP-ProxyThread-21] INFO  Scanner - scanner started
+2020-10-07 21:14:20,443 [Thread-37] INFO  HostProcess - Scanning 11 node(s) from http://localhost:12345
+2020-10-07 21:14:20,444 [Thread-37] INFO  HostProcess - start host http://localhost:12345 | XxeScanRule strength MEDIUM threshold MEDIUM
+2020-10-07 21:14:33,599 [Thread-37] INFO  HostProcess - completed host/plugin http://localhost:12345 | XxeScanRule in 13.155s with 40 message(s) sent and 15 alert(s) raised.
+2020-10-07 21:14:33,600 [Thread-37] INFO  HostProcess - completed host http://localhost:12345 in 13.165s with 15 alert(s) raised.
+2020-10-07 21:14:33,600 [Thread-36] INFO  Scanner - scanner completed in 13.168s
+
+10 POST request and
+10 PUT request:
+
+2020-10-07 21:16:35,462 [ZAP-ProxyThread-52] INFO  Scanner - scanner started
+2020-10-07 21:16:35,476 [Thread-71] INFO  HostProcess - Scanning 21 node(s) from http://localhost:12345
+2020-10-07 21:16:35,480 [Thread-71] INFO  HostProcess - start host http://localhost:12345 | XxeScanRule strength MEDIUM threshold MEDIUM
+2020-10-07 21:17:02,063 [Thread-71] INFO  HostProcess - completed host/plugin http://localhost:12345 | XxeScanRule in 26.586s with 80 message(s) sent and 30 alert(s) raised.
+2020-10-07 21:17:02,063 [Thread-71] INFO  HostProcess - completed host http://localhost:12345 in 26.595s with 30 alert(s) raised.
+2020-10-07 21:17:02,063 [Thread-70] INFO  Scanner - scanner completed in 26.6s
+
+20 POST request and
+20 PUT request:
+
+2020-10-07 21:18:59,214 [ZAP-ProxyThread-113] INFO  Scanner - scanner started
+2020-10-07 21:18:59,225 [Thread-135] INFO  HostProcess - Scanning 41 node(s) from http://localhost:12345
+2020-10-07 21:18:59,226 [Thread-135] INFO  HostProcess - start host http://localhost:12345 | XxeScanRule strength MEDIUM threshold MEDIUM
+2020-10-07 21:19:52,290 [Thread-135] INFO  HostProcess - completed host/plugin http://localhost:12345 | XxeScanRule in 53.065s with 160 message(s) sent and 60 alert(s) raised.
+2020-10-07 21:19:52,290 [Thread-135] INFO  HostProcess - completed host http://localhost:12345 in 53.072s with 60 alert(s) raised.
+2020-10-07 21:19:52,291 [Thread-134] INFO  Scanner - scanner completed in 53.075s
