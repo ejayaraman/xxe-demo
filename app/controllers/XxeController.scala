@@ -18,6 +18,7 @@ class XxeController @Inject()(cc: ControllerComponents)(implicit exec: Execution
   def post(id: String): Action[String] = Action.async(parse.tolerantText) { request =>
     val factory = SAXParserFactory.newInstance()
     //    factory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true)
+    //This is a test comment.
 
     val saxParser = factory.newSAXParser()
 
